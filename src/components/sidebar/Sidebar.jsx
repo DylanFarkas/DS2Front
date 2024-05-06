@@ -60,7 +60,7 @@ const Sidebar = () => {
                 <div className="sidebar-menu">
                     <ul className="menu-list">
                         <li className="menu-item">
-                            <Link to = "/" className="menu-link active">
+                            <Link to = "/dashboard" className="menu-link active">
                                 <span className="menu-link-icon">
                                     <MdOutlineGridView size={16}/>
                                 </span>
@@ -68,7 +68,7 @@ const Sidebar = () => {
                             </Link>
                         </li>
                         <li className="menu-item">
-                            <Link to = "/" className="menu-link">
+                            <Link to = "/quotes" className="menu-link">
                                 <span className="menu-link-icon">
                                     <MdNewspaper size={20}/>
                                 </span>
@@ -76,7 +76,7 @@ const Sidebar = () => {
                             </Link>
                         </li>
                         <li className="menu-item">
-                            <Link to = "/" className="menu-link">
+                            <Link to = "/sales" className="menu-link">
                                 <span className="menu-link-icon">
                                     <MdOutlineAttachMoney size={20}/>
                                 </span>
