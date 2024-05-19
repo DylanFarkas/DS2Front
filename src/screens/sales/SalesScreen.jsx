@@ -1,9 +1,9 @@
-import Sales from "../../components/sales/Sales"
+import { AreaTableS } from "../../components"
 
 const SalesScreen = () => {
   return (
     <div>
-        <Sales />
+        <AreaTableS />
     </div>
   )
 }

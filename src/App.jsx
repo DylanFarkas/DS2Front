@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MoonIcon from "./assets/icons/moon.svg";
 import SunIcon from "./assets/icons/sun.svg";
 import BaseLayout from "./layout/BaseLayout";
-import { Dashboard, Login, Quotes, Sales,PageNotFound } from "./screens";
+import { Dashboard, Login, Quotes, Sales, Products, Orders, Users, PageNotFound } from "./screens";
 
 
 function App() {
@@ -31,6 +31,10 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/quotes" element={<Quotes/>} />
             <Route path="/sales" element={<Sales/>} />
+            <Route path="/products" element={<Products/>} />
+            <Route path="/orders" element={<Orders/>} />
+            <Route path="/users" element={<Users/>} />
+
             <Route path="*" element={<PageNotFound />} />
           </Route>
         </Routes>

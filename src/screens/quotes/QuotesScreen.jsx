@@ -1,9 +1,9 @@
-import Quotes from "../../components/quotes/Quotes"
+import { AreaTableQ } from "../../components"
 
 const QuotesScreen = () => {
   return (
     <div>
-        <Quotes />
+        <AreaTableQ />
     </div>
   )
 }

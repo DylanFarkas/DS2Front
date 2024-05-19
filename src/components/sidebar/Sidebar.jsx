@@ -84,7 +84,7 @@ const Sidebar = () => {
                             </Link>
                         </li>
                         <li className="menu-item">
-                            <Link to = "/" className="menu-link">
+                            <Link to = "/products" className="menu-link">
                                 <span className="menu-link-icon">
                                     <MdOutlineShoppingBag size={20}/>
                                 </span>
@@ -92,7 +92,7 @@ const Sidebar = () => {
                             </Link>
                         </li>
                         <li className="menu-item">
-                            <Link to = "/" className="menu-link">
+                            <Link to = "/orders" className="menu-link">
                                 <span className="menu-link-icon">
                                     <MdBorderColor size={20}/>
                                 </span>
@@ -100,19 +100,11 @@ const Sidebar = () => {
                             </Link>
                         </li>
                         <li className="menu-item">
-                            <Link to = "/" className="menu-link">
+                            <Link to = "/users" className="menu-link">
                                 <span className="menu-link-icon">
                                     <MdOutlinePeople size={20}/>
                                 </span>
                                 <span className="menu-link-text"> Users </span>
-                            </Link>
-                        </li>
-                        <li className="menu-item">
-                            <Link to = "/" className="menu-link">
-                                <span className="menu-link-icon">
-                                    <MdBarChart size={20}/>
-                                </span>
-                                <span className="menu-link-text"> Orders </span>
                             </Link>
                         </li>
                     </ul>
